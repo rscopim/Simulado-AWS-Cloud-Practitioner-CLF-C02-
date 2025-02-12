@@ -137,6 +137,8 @@
 - B) Excelência operacional trata da eficiência nos processos.  
 - D) Sustentabilidade trata da eficiência energética e impacto ambiental.
 
+---
+
 ### 10. Qual estratégia de projeto recomendada pela AWS ajuda a reduzir a latência para usuários globais?
 - [ ] A) Usar uma única região AWS  
 - [x] B) Utilizar Amazon CloudFront e regiões distribuídas  
@@ -165,21 +167,7 @@
 
 ---
 
-### 12. Qual estratégia de migração envolve substituir uma aplicação existente por uma solução SaaS?
-- [ ] A) Rehospedar  
-- [x] B) Recomprar  
-- [ ] C) Re-arquitetar  
-- [ ] D) Reter  
-
-**Explicação:** A estratégia de recomprar envolve substituir a solução existente por uma nova solução SaaS.  
-**Por que as outras estão incorretas?**  
-- A) Rehospedar move a aplicação para a nuvem sem alterações.  
-- C) Re-arquitetar envolve modificar a aplicação para melhor aproveitamento da nuvem.  
-- D) Reter significa manter a aplicação no ambiente atual.  
-
----
-
-### 13. Qual é um dos principais benefícios da computação em nuvem na AWS?
+### 12. Qual é um dos principais benefícios da computação em nuvem na AWS?
 - [ ] A) Necessidade de altos investimentos iniciais  
 - [ ] B) Aumento da complexidade de gestão de infraestrutura  
 - [x] C) Pagamento sob demanda  
@@ -193,7 +181,7 @@
 
 ---
 
-### 14. Qual dos seguintes aspectos não é um benefício direto do modelo de computação em nuvem?
+### 13. Qual dos seguintes aspectos não é um benefício direto do modelo de computação em nuvem?
 - [x] B) Alto custo fixo  
 - [ ] A) Elasticidade  
 - [ ] C) Escalabilidade  
@@ -207,7 +195,7 @@
 
 ---
 
-### 15. Qual dos pilares do Well-Architected Framework enfatiza a importância da segurança de dados e acessos?
+### 14. Qual dos pilares do Well-Architected Framework enfatiza a importância da segurança de dados e acessos?
 - [ ] A) Confiabilidade  
 - [ ] B) Sustentabilidade  
 - [ ] C) Excelência operacional  
@@ -221,7 +209,7 @@
 
 ---
 
-### 16. O que a AWS recomenda para melhorar a resiliência de aplicações na nuvem?
+### 15. O que a AWS recomenda para melhorar a resiliência de aplicações na nuvem?
 - [ ] A) Uso de uma única zona de disponibilidade  
 - [x] B) Implementação de balanceamento de carga e failover  
 - [ ] C) Execução exclusiva de workloads on-premises  
@@ -235,7 +223,7 @@
 
 ---
 
-### 17. Qual é um dos principais benefícios do AWS Snowball para migração de dados?
+### 16. Qual é um dos principais benefícios do AWS Snowball para migração de dados?
 - [x] A) Permite transferência de grandes volumes de dados de forma segura e eficiente  
 - [ ] B) Exige conexão de alta velocidade para migração  
 - [ ] C) É apenas um serviço de armazenamento de longa duração  
@@ -249,7 +237,7 @@
 
 ---
 
-### 18. Qual é um dos principais benefícios da computação em nuvem na AWS?
+### 17. Qual é um dos principais benefícios da computação em nuvem na AWS?
 - [ ] A) Necessidade de altos investimentos iniciais  
 - [ ] B) Aumento da complexidade de gestão de infraestrutura  
 - [x] C) Pagamento sob demanda  
@@ -263,7 +251,7 @@
 
 ---
 
-### 19. Qual dos seguintes aspectos **não** é um benefício direto do modelo de computação em nuvem?
+### 18. Qual dos seguintes aspectos **não** é um benefício direto do modelo de computação em nuvem?
 - [ ] A) Elasticidade  
 - [x] B) Alto custo fixo  
 - [ ] C) Escalabilidade  
@@ -277,7 +265,7 @@
 
 ---
 
-### 20. Qual dos pilares do Well-Architected Framework enfatiza a importância da segurança de dados e acessos?
+### 19. Qual dos pilares do Well-Architected Framework enfatiza a importância da segurança de dados e acessos?
 - [ ] A) Confiabilidade  
 - [ ] B) Sustentabilidade  
 - [ ] C) Excelência operacional  
@@ -291,7 +279,7 @@
 
 ---
 
-### 21. O que a AWS recomenda para melhorar a resiliência de aplicações na nuvem?  
+### 20. O que a AWS recomenda para melhorar a resiliência de aplicações na nuvem?  
 - [ ] A) Uso de uma única zona de disponibilidade  
 - [x] B) Implementação de balanceamento de carga e failover  
 - [ ] C) Execução exclusiva de workloads on-premises  
@@ -305,21 +293,7 @@
 
 ---
 
-### 22. Qual estratégia de migração para a nuvem envolve refatorar uma aplicação para um ambiente nativo em nuvem?
-- [ ] A) Rehospedar  
-- [ ] B) Recomprar  
-- [x] C) Refatorar  
-- [ ] D) Reter  
-
-**Explicação:** Refatorar envolve modificar significativamente a aplicação para que ela aproveite os serviços nativos da nuvem.  
-**Por que as outras estão incorretas?**  
-- A) Rehospedar significa mover para a nuvem sem modificações.  
-- B) Recomprar envolve substituir a solução por um serviço SaaS.  
-- D) Reter significa manter a aplicação inalterada no ambiente atual.  
-
----
-
-### 23. Qual é uma vantagem do AWS Trusted Advisor?
+### 21. Qual é uma vantagem do AWS Trusted Advisor?
 - [ ] A) Permite monitoramento em tempo real de latência de rede  
 - [x] B) Oferece recomendações para melhorar segurança, desempenho e custos  
 - [ ] C) Substitui a necessidade de um arquiteto de nuvem  
@@ -333,7 +307,7 @@
 
 ---
 
-### 24. Qual das opções abaixo é um benefício de utilizar a AWS para hospedar aplicações?
+### 22. Qual das opções abaixo é um benefício de utilizar a AWS para hospedar aplicações?
 - [ ] A) Custos fixos elevados  
 - [ ] B) Necessidade de provisionamento manual de servidores  
 - [x] C) Escalabilidade sob demanda  
@@ -347,7 +321,7 @@
 
 ---
 
-### 25. Qual dos seguintes elementos não faz parte da proposta de valor da AWS?
+### 23. Qual dos seguintes elementos não faz parte da proposta de valor da AWS?
 - [ ] A) Alta disponibilidade  
 - [ ] B) Infraestrutura elástica  
 - [x] C) Necessidade de investir em hardware próprio  
@@ -361,7 +335,7 @@
 
 ---
 
-### 26. Qual dos pilares do Well-Architected Framework está relacionado à otimização de custos?
+### 24. Qual dos pilares do Well-Architected Framework está relacionado à otimização de custos?
 - [ ] A) Eficiência operacional  
 - [ ] B) Segurança  
 - [x] C) Otimização de custos  
@@ -375,7 +349,7 @@
 
 ---
 
-### 27. Qual estratégia de design da AWS permite maior disponibilidade e recuperação de desastres?
+### 25. Qual estratégia de design da AWS permite maior disponibilidade e recuperação de desastres?
 - [ ] A) Uso de uma única zona de disponibilidade  
 - [x] B) Implementação de multi-região  
 - [ ] C) Manutenção de servidores locais  
@@ -389,21 +363,7 @@
 
 ---
 
-### 28. Qual das opções abaixo é uma das seis estratégias de migração para a nuvem?
-- [ ] A) Revisão  
-- [ ] B) Reformulação  
-- [x] C) Refatoramento  
-- [ ] D) Reconfiguração  
-
-**Explicação:** O refatoramento envolve modificação da aplicação para tirar proveito dos serviços nativos da AWS.  
-**Por que as outras estão incorretas?**  
-- A) Revisão não é um dos "6 Rs" da migração.  
-- B) Reformulação não é um termo utilizado na migração para a nuvem.  
-- D) Reconfiguração não faz parte das estratégias formais de migração.  
-
----
-
-### 29. Qual serviço da AWS pode ser usado para migrar grandes volumes de dados para a nuvem de forma física?
+### 26. Qual serviço da AWS pode ser usado para migrar grandes volumes de dados para a nuvem de forma física?
 - [x] A) AWS Snowball  
 - [ ] B) Amazon S3 Transfer Acceleration  
 - [ ] C) AWS Direct Connect  
@@ -417,7 +377,7 @@
 
 ---
 
-### 30. Qual das seguintes opções é um dos principais benefícios da computação em nuvem?
+### 27. Qual das seguintes opções é um dos principais benefícios da computação em nuvem?
 - [ ] A) Alta latência  
 - [x] B) Capacidade de provisionamento sob demanda  
 - [ ] C) Custos fixos elevados  
@@ -431,7 +391,7 @@
 
 ---
 
-### 31. Qual das seguintes opções representa uma vantagem da infraestrutura global da AWS?
+### 28. Qual das seguintes opções representa uma vantagem da infraestrutura global da AWS?
 - [ ] A) Restrita a uma única região  
 - [ ] B) Falta de redundância  
 - [x] C) Resiliência através de múltiplas zonas de disponibilidade  
@@ -445,7 +405,7 @@
 
 ---
 
-### 32. Qual dos pilares do Well-Architected Framework se concentra na segurança?
+### 29. Qual dos pilares do Well-Architected Framework se concentra na segurança?
 - [ ] A) Excelência operacional  
 - [ ] B) Confiabilidade  
 - [x] C) Segurança  
@@ -459,7 +419,7 @@
 
 ---
 
-### 33. Qual estratégia de projeto na AWS melhora a eficiência de desempenho?
+### 30. Qual estratégia de projeto na AWS melhora a eficiência de desempenho?
 - [ ] A) Uso de instâncias reservadas para todas as cargas de trabalho  
 - [x] B) Uso de diferentes tipos de instâncias com base na carga de trabalho  
 - [ ] C) Manutenção de servidores próprios para controle total  
