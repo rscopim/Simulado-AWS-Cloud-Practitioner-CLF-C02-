@@ -221,4 +221,252 @@
 
 ---
 
+### 16. O que a AWS recomenda para melhorar a resiliência de aplicações na nuvem?
+- [ ] A) Uso de uma única zona de disponibilidade  
+- [x] B) Implementação de balanceamento de carga e failover  
+- [ ] C) Execução exclusiva de workloads on-premises  
+- [ ] D) Evitar o uso de armazenamento redundante  
 
+**Explicação:** O balanceamento de carga distribui o tráfego entre instâncias e o failover garante a continuidade dos serviços em caso de falha.  
+**Por que as outras estão incorretas?**  
+- A) Utilizar uma única zona de disponibilidade aumenta o risco de indisponibilidade.  
+- C) Workloads exclusivamente on-premises não se beneficiam da resiliência da nuvem.  
+- D) O armazenamento redundante melhora a disponibilidade dos dados.  
+
+---
+
+### 17. Qual é um dos principais benefícios do AWS Snowball para migração de dados?
+- [x] A) Permite transferência de grandes volumes de dados de forma segura e eficiente  
+- [ ] B) Exige conexão de alta velocidade para migração  
+- [ ] C) É apenas um serviço de armazenamento de longa duração  
+- [ ] D) Só pode ser usado para dados estruturados  
+
+**Explicação:** O AWS Snowball permite a migração física de grandes volumes de dados para a AWS sem depender de conexões de rede.  
+**Por que as outras estão incorretas?**  
+- B) O Snowball é projetado para evitar a necessidade de conexões de alta velocidade.  
+- C) Ele é uma solução temporária de migração, não de armazenamento permanente.  
+- D) O Snowball suporta tanto dados estruturados quanto não estruturados.  
+
+---
+
+### 18. Qual é um dos principais benefícios da computação em nuvem na AWS?
+- [ ] A) Necessidade de altos investimentos iniciais  
+- [ ] B) Aumento da complexidade de gestão de infraestrutura  
+- [x] C) Pagamento sob demanda  
+- [ ] D) Atualizações manuais obrigatórias para servidores  
+
+**Explicação:** A AWS permite que os clientes paguem apenas pelos recursos que utilizam, evitando altos investimentos iniciais.  
+**Por que as outras estão incorretas?**  
+- A) A nuvem elimina a necessidade de grandes investimentos iniciais.  
+- B) A AWS simplifica a gestão da infraestrutura com serviços gerenciados.  
+- D) A AWS aplica atualizações automáticas, sem necessidade de intervenção manual.  
+
+---
+
+### 19. Qual dos seguintes aspectos **não** é um benefício direto do modelo de computação em nuvem?
+- [ ] A) Elasticidade  
+- [x] B) Alto custo fixo  
+- [ ] C) Escalabilidade  
+- [ ] D) Agilidade  
+
+**Explicação:** A nuvem AWS reduz custos fixos ao permitir que as empresas paguem conforme o uso.  
+**Por que as outras estão incorretas?**  
+- A) Elasticidade permite ajustar recursos dinamicamente.  
+- C) Escalabilidade permite aumentar ou diminuir a capacidade conforme a demanda.  
+- D) Agilidade permite implantar rapidamente novas soluções.  
+
+---
+
+### 20. Qual dos pilares do Well-Architected Framework enfatiza a importância da segurança de dados e acessos?
+- [ ] A) Confiabilidade  
+- [ ] B) Sustentabilidade  
+- [ ] C) Excelência operacional  
+- [x] D) Segurança  
+
+**Explicação:** O pilar de segurança garante a proteção de informações, controle de acessos e conformidade regulatória.  
+**Por que as outras estão incorretas?**  
+- A) Confiabilidade trata da resiliência e recuperação de falhas.  
+- B) Sustentabilidade foca no impacto ambiental e eficiência energética.  
+- C) Excelência operacional envolve melhores práticas de gestão e automação.  
+
+---
+
+### 21. O que a AWS recomenda para melhorar a resiliência de aplicações na nuvem?  
+- [ ] A) Uso de uma única zona de disponibilidade  
+- [x] B) Implementação de balanceamento de carga e failover  
+- [ ] C) Execução exclusiva de workloads on-premises  
+- [ ] D) Evitar o uso de armazenamento redundante  
+
+**Explicação:** O balanceamento de carga distribui o tráfego entre instâncias e o failover garante a continuidade dos serviços em caso de falha.  
+**Por que as outras estão incorretas?**  
+- **A)** Utilizar uma única zona de disponibilidade aumenta o risco de indisponibilidade.  
+- **C)** Workloads exclusivamente on-premises não se beneficiam da resiliência da nuvem.  
+- **D)** O armazenamento redundante melhora a disponibilidade dos dados.  
+
+---
+
+### 22. Qual estratégia de migração para a nuvem envolve refatorar uma aplicação para um ambiente nativo em nuvem?
+- [ ] A) Rehospedar  
+- [ ] B) Recomprar  
+- [x] C) Refatorar  
+- [ ] D) Reter  
+
+**Explicação:** Refatorar envolve modificar significativamente a aplicação para que ela aproveite os serviços nativos da nuvem.  
+**Por que as outras estão incorretas?**  
+- A) Rehospedar significa mover para a nuvem sem modificações.  
+- B) Recomprar envolve substituir a solução por um serviço SaaS.  
+- D) Reter significa manter a aplicação inalterada no ambiente atual.  
+
+---
+
+### 23. Qual é uma vantagem do AWS Trusted Advisor?
+- [ ] A) Permite monitoramento em tempo real de latência de rede  
+- [x] B) Oferece recomendações para melhorar segurança, desempenho e custos  
+- [ ] C) Substitui a necessidade de um arquiteto de nuvem  
+- [ ] D) Realiza backups automáticos de instâncias EC2  
+
+**Explicação:** O AWS Trusted Advisor analisa o ambiente do usuário e sugere melhorias em segurança, performance, custo e outros aspectos.  
+**Por que as outras estão incorretas?**  
+- A) O Trusted Advisor não monitora latência de rede em tempo real.  
+- C) Ele auxilia, mas não substitui um arquiteto de nuvem.  
+- D) Backups automáticos podem ser configurados, mas não são feitos pelo Trusted Advisor.  
+
+---
+
+### 24. Qual das opções abaixo é um benefício de utilizar a AWS para hospedar aplicações?
+- [ ] A) Custos fixos elevados  
+- [ ] B) Necessidade de provisionamento manual de servidores  
+- [x] C) Escalabilidade sob demanda  
+- [ ] D) Uso restrito a um único data center  
+
+**Explicação:** A AWS permite aumentar ou diminuir a capacidade de recursos conforme a necessidade, otimizando custos e desempenho.  
+**Por que as outras estão incorretas?**  
+- A) A AWS reduz custos fixos, permitindo pagamento sob demanda.  
+- B) A AWS oferece provisionamento automatizado e gerenciado.  
+- D) A AWS tem infraestrutura global, não limitada a um único data center.  
+
+---
+
+### 25. Qual dos seguintes elementos não faz parte da proposta de valor da AWS?
+- [ ] A) Alta disponibilidade  
+- [ ] B) Infraestrutura elástica  
+- [x] C) Necessidade de investir em hardware próprio  
+- [ ] D) Modelo de pagamento sob demanda  
+
+**Explicação:** Com a AWS, os clientes utilizam infraestrutura gerenciada sem a necessidade de investir em hardware próprio.  
+**Por que as outras estão incorretas?**  
+- A) A AWS garante alta disponibilidade com regiões e zonas de disponibilidade.  
+- B) A infraestrutura da AWS permite ajustes automáticos conforme a demanda.  
+- D) O modelo de pagamento sob demanda é um dos principais benefícios da nuvem.  
+
+---
+
+### 26. Qual dos pilares do Well-Architected Framework está relacionado à otimização de custos?
+- [ ] A) Eficiência operacional  
+- [ ] B) Segurança  
+- [x] C) Otimização de custos  
+- [ ] D) Confiabilidade  
+
+**Explicação:** Esse pilar se concentra na utilização eficiente dos recursos para minimizar gastos desnecessários.  
+**Por que as outras estão incorretas?**  
+- A) Eficiência operacional trata da melhoria de processos e automação.  
+- B) Segurança envolve proteção de dados e controle de acessos.  
+- D) Confiabilidade foca na resiliência e recuperação de falhas.  
+
+---
+
+### 27. Qual estratégia de design da AWS permite maior disponibilidade e recuperação de desastres?
+- [ ] A) Uso de uma única zona de disponibilidade  
+- [x] B) Implementação de multi-região  
+- [ ] C) Manutenção de servidores locais  
+- [ ] D) Armazenamento de dados apenas em uma instância EC2  
+
+**Explicação:** Utilizar múltiplas regiões da AWS melhora a disponibilidade e a continuidade dos serviços em caso de falhas.  
+**Por que as outras estão incorretas?**  
+- A) Utilizar uma única zona de disponibilidade aumenta o risco de indisponibilidade.  
+- C) Manter servidores locais não aproveita os benefícios da resiliência da nuvem.  
+- D) Armazenamento em uma única instância EC2 limita a recuperação de dados.  
+
+---
+
+### 28. Qual das opções abaixo é uma das seis estratégias de migração para a nuvem?
+- [ ] A) Revisão  
+- [ ] B) Reformulação  
+- [x] C) Refatoramento  
+- [ ] D) Reconfiguração  
+
+**Explicação:** O refatoramento envolve modificação da aplicação para tirar proveito dos serviços nativos da AWS.  
+**Por que as outras estão incorretas?**  
+- A) Revisão não é um dos "6 Rs" da migração.  
+- B) Reformulação não é um termo utilizado na migração para a nuvem.  
+- D) Reconfiguração não faz parte das estratégias formais de migração.  
+
+---
+
+### 29. Qual serviço da AWS pode ser usado para migrar grandes volumes de dados para a nuvem de forma física?
+- [x] A) AWS Snowball  
+- [ ] B) Amazon S3 Transfer Acceleration  
+- [ ] C) AWS Direct Connect  
+- [ ] D) AWS DataSync  
+
+**Explicação:** O AWS Snowball é um dispositivo físico utilizado para transferência de grandes volumes de dados para a AWS.  
+**Por que as outras estão incorretas?**  
+- B) Amazon S3 Transfer Acceleration acelera transferências de dados pela internet, mas não é um dispositivo físico.  
+- C) AWS Direct Connect cria conexões dedicadas entre data centers e a AWS, mas não transfere dados físicos.  
+- D) AWS DataSync ajuda a sincronizar dados entre locais, mas não envolve transferência física.  
+
+---
+
+### 30. Qual das seguintes opções é um dos principais benefícios da computação em nuvem?
+- [ ] A) Alta latência  
+- [x] B) Capacidade de provisionamento sob demanda  
+- [ ] C) Custos fixos elevados  
+- [ ] D) Dependência de servidores locais  
+
+**Explicação:** A AWS permite provisionar recursos sob demanda, escalando para cima ou para baixo conforme necessário.  
+**Por que as outras estão incorretas?**  
+- A) A AWS reduz a latência com sua infraestrutura global.  
+- C) A computação em nuvem reduz custos fixos, permitindo pagamento sob demanda.  
+- D) A AWS elimina a necessidade de servidores locais para muitas cargas de trabalho.  
+
+---
+
+### 31. Qual das seguintes opções representa uma vantagem da infraestrutura global da AWS?
+- [ ] A) Restrita a uma única região  
+- [ ] B) Falta de redundância  
+- [x] C) Resiliência através de múltiplas zonas de disponibilidade  
+- [ ] D) Provisionamento manual necessário para redundância  
+
+**Explicação:** A AWS opera em múltiplas zonas de disponibilidade para garantir alta disponibilidade e resiliência.  
+**Por que as outras estão incorretas?**  
+- A) A AWS tem infraestrutura distribuída globalmente.  
+- B) A AWS possui alta redundância para evitar falhas.  
+- D) A redundância é automatizada na AWS.  
+
+---
+
+### 32. Qual dos pilares do Well-Architected Framework se concentra na segurança?
+- [ ] A) Excelência operacional  
+- [ ] B) Confiabilidade  
+- [x] C) Segurança  
+- [ ] D) Sustentabilidade  
+
+**Explicação:** O pilar de segurança garante a proteção dos dados, controles de acesso e boas práticas de conformidade.  
+**Por que as outras estão incorretas?**  
+- A) Excelência operacional trata da automação de processos e eficiência operacional.  
+- B) Confiabilidade foca na recuperação de falhas e continuidade do serviço.  
+- D) Sustentabilidade está relacionada ao impacto ambiental e eficiência energética.  
+
+---
+
+### 33. Qual estratégia de projeto na AWS melhora a eficiência de desempenho?
+- [ ] A) Uso de instâncias reservadas para todas as cargas de trabalho  
+- [x] B) Uso de diferentes tipos de instâncias com base na carga de trabalho  
+- [ ] C) Manutenção de servidores próprios para controle total  
+- [ ] D) Dependência de uma única zona de disponibilidade  
+
+**Explicação:** A AWS oferece serviços como Auto Scaling e AWS CloudFormation que automatizam a alocação e gerenciamento de recursos.  
+**Por que as outras estão incorretas?**  
+- B) A AWS minimiza a necessidade de atualizações manuais.  
+- C) A AWS permite vários modelos de implantação.  
+- D) A computação em nuvem reduz a dependência de hardware físico. 
