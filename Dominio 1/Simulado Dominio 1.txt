@@ -1,0 +1,36 @@
+// **Simulado AWS Cloud Practitioner (CLF-C02) - Domínio 1**
+
+::Q31:: Qual dos seguintes é um dos principais benefícios da alta disponibilidade da nuvem AWS? {
+=Redução do tempo de inatividade dos serviços
+~Necessidade de monitoramento constante pelos usuários
+~Dependência de hardware físico específico
+~Custos fixos elevados para manter os serviços ativos
+}
+
+::Q32:: O que é um dos principais diferenciais do AWS Cloud Adoption Framework (AWS CAF)? {
+~Foca apenas na migração técnica para a nuvem
+=Aborda aspectos técnicos, organizacionais e financeiros da migração
+~Aplica-se apenas a empresas de grande porte
+~Exige que todos os workloads sejam transferidos de uma vez para a nuvem
+}
+
+::Q33:: Como a AWS ajuda as empresas a melhorar sua eficiência operacional? {
+=Automatizando tarefas repetitivas com serviços como AWS Lambda e AWS Systems Manager
+~Eliminando a necessidade de equipes de TI
+~Garantindo que todos os aplicativos funcionem apenas em uma única região
+~Substituindo todos os sistemas legados imediatamente
+}
+
+::Q34:: Qual é um dos principais fatores para otimizar os custos na AWS? {
+=Dimensionamento correto dos recursos
+~Uso exclusivo de instâncias sob demanda
+~Execução de workloads em hardware local
+~Manutenção de capacidade fixa independente da demanda
+}
+
+::Q35:: Qual dos seguintes é um benefício direto dos serviços gerenciados da AWS? {
+=Redução da complexidade operacional
+~Necessidade de gerenciar hardware físico
+~Maior dependência de infraestrutura local
+~Uso limitado a workloads específicos
+}
