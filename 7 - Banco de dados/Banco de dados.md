@@ -26,12 +26,12 @@
 - **B)** O **ElastiCache** não tem foco no aumento de capacidade de armazenamento, mas sim no desempenho.  
 - **D)** A proteção contra DDoS é gerenciada pelo **AWS Shield**, não pelo **ElastiCache**.
 
-3. Qual serviço pode ser utilizado para melhorar a performance de aplicativos, armazenando dados em memória de forma escalável?
- A) Amazon RDS
- B) Amazon DocumentDB
- C) AWS ElastiCache
- D) Amazon S3
-Explicação: O AWS ElastiCache é um serviço gerenciado de cache em memória que melhora a performance de aplicativos, armazenando dados temporários em memória de forma escalável.
+### 3. Qual serviço pode ser utilizado para melhorar a performance de aplicativos, armazenando dados em memória de forma escalável?
+- **A)** Amazon RDS
+- **B)** Amazon DocumentDB
+- **C)** AWS ElastiCache
+- **D)** Amazon S3
+**Explicação:** O AWS ElastiCache é um serviço gerenciado de cache em memória que melhora a performance de aplicativos, armazenando dados temporários em memória de forma escalável.
 
 Por que as outras estão incorretas?
 
