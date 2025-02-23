@@ -430,3 +430,108 @@
 - B) A AWS minimiza a necessidade de atualizações manuais.  
 - C) A AWS permite vários modelos de implantação.  
 - D) A computação em nuvem reduz a dependência de hardware físico. 
+
+---
+
+### 31. Qual pilar do AWS Well-Architected Framework foca na eficiência de desempenho?
+- [ ] A) Excelência operacional
+- [x] B) Eficiência de desempenho
+- [ ] C) Segurança
+- [ ] D) Sustentabilidade
+
+**Explicação:** Esse pilar busca otimizar o uso dos recursos para manter um alto desempenho ao menor custo possível.
+
+**Por que as outras estão incorretas?**
+- A) Excelência operacional trata da automação de processos e operações eficientes.
+- C) Segurança trata de proteção de dados e conformidade.
+- D) Sustentabilidade está relacionada ao impacto ambiental.
+
+---
+
+### 44. Qual estratégia de arquitetura ajuda a melhorar a confiabilidade na AWS?
+- [ ] A) Uso de uma única zona de disponibilidade
+- [x] B) Implementação de redundância através de várias regiões e zonas de disponibilidade
+- [ ] C) Manutenção de servidores físicos em datacenters locais
+- [ ] D) Uso de licenças pré-pagas para software
+
+**Explicação:** A AWS oferece alta disponibilidade por meio do uso de múltiplas zonas de disponibilidade e regiões.
+
+**Por que as outras estão incorretas?**
+- **A)** Usar uma única zona de disponibilidade pode causar falhas em caso de incidentes.
+- **C)** Manter servidores locais reduz a escalabilidade e resiliência.
+- **D)** Uso de licenças pré-pagas não melhora a confiabilidade dos sistemas.
+
+---
+
+### 45. Qual dos seguintes é um dos 6 Rs da migração para a nuvem?
+- [ ] A) Reutilização
+- [x] B) Replataformização
+- [ ] C) Reinicialização
+- [ ] D) Replicabilidade
+
+**Explicação:** Replataformização envolve fazer algumas otimizações na aplicação sem refazê-la completamente.
+
+**Por que as outras estão incorretas?**
+- **A)** "Reutilização" não é um dos 6 Rs da migração.
+- **C)** "Reinicialização" não faz parte da terminologia.
+- **D)** "Replicabilidade" não é um conceito dos 6 Rs.
+
+---
+
+### 46. Qual serviço AWS auxilia na transferência segura de grandes volumes de dados para a nuvem?
+- [x] A) AWS Snowball
+- [ ] B) AWS Elastic Beanstalk
+- [ ] C) AWS Lambda
+- [ ] D) Amazon Route 53
+
+**Explicação:** O AWS Snowball é um serviço de transferência de dados físicos que permite mover grandes volumes de dados para a AWS de maneira segura e eficiente.
+
+**Por que as outras estão incorretas?**
+- **B)** AWS Elastic Beanstalk é usado para implantação automatizada de aplicações.
+- **C)** AWS Lambda permite execução de código sem provisionamento de servidores.
+- **D)** Amazon Route 53 é um serviço de DNS.
+
+---
+
+### 47. Qual dos seguintes é um benefício do modelo de precificação sob demanda da AWS?
+- [ ] A) Pagamento antecipado por todos os recursos
+- [x] B) Pagamento apenas pelos recursos utilizados
+- [ ] C) Custo fixo mensal independente do uso
+- [ ] D) Necessidade de contratar infraestrutura adicional para alta demanda
+
+**Explicação:** O modelo de precificação sob demanda da AWS permite que os clientes paguem apenas pelos recursos que realmente utilizam, proporcionando maior eficiência de custos.
+
+**Por que as outras estão incorretas?**
+- **A)** A AWS não exige pagamento antecipado por todos os recursos.
+- **C)** A precificação na AWS é baseada no consumo, não em um custo fixo mensal.
+- **D)** A escalabilidade elástica da AWS elimina a necessidade de contratar infraestrutura adicional permanentemente.
+
+---
+
+### 48. O que permite que as empresas implantem aplicativos globalmente de maneira rápida na AWS?
+- [ ] A) Zonas de disponibilidade
+- [x] B) AWS Regions
+- [ ] C) Amazon RDS
+- [ ] D) AWS IAM
+
+**Explicação:** As AWS Regions permitem que os usuários implantem aplicativos e armazenem dados em localizações estratégicas ao redor do mundo, garantindo baixa latência e conformidade regulatória.
+
+**Por que as outras estão incorretas?**
+- **A)** Zonas de disponibilidade fornecem redundância dentro de uma região, mas não facilitam implantações globais.
+- **C)** Amazon RDS é um serviço gerenciado de banco de dados, não está relacionado diretamente à implantação global.
+- **D)** AWS IAM gerencia permissões e identidades, mas não é responsável pela implantação de aplicativos globalmente.
+
+---
+
+### 49. Qual das opções abaixo descreve um dos principais benefícios da elasticidade da nuvem AWS?
+- [ ] A) Redução do consumo elétrico dos datacenters
+- [x] B) Ajuste automático da capacidade conforme a demanda
+- [ ] C) Aumento fixo da capacidade de hardware independente da carga de trabalho
+- [ ] D) Exigência de planejamento de capacidade de longo prazo
+
+**Explicação:** A elasticidade permite que os recursos aumentem ou diminuam automaticamente em resposta à demanda do usuário, otimizando custos e desempenho.
+
+**Por que as outras estão incorretas?**
+- **A)** A elasticidade não está diretamente relacionada ao consumo elétrico dos datacenters.
+- **C)** A elasticidade ajusta a capacidade dinamicamente, não de forma fixa.
+- **D)** A AWS elimina a necessidade de planejamento de capacidade de longo prazo ao permitir escalabilidade automática.
