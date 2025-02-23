@@ -264,3 +264,274 @@ Por que as outras estão incorretas?
 A) O Amazon CloudWatch monitora métricas e logs, mas não cria ou atualiza recursos.
 C) O AWS Systems Manager gerencia recursos, mas não cria infraestrutura como código.
 D) O AWS Elastic Beanstalk facilita a implantação de aplicativos, mas não automatiza a criação de recursos.
+
+---
+
+### AWS Trusted Advisor
+
+1. Qual serviço da AWS fornece recomendações para ajudar a otimizar o custo, desempenho, segurança e confiabilidade dos recursos da AWS?
+ A) AWS CloudTrail
+ B) AWS Trusted Advisor
+ C) AWS Systems Manager
+ D) AWS Config
+Explicação: O AWS Trusted Advisor oferece recomendações personalizadas para otimizar o custo, desempenho, segurança e confiabilidade dos recursos AWS.
+
+Por que as outras estão incorretas?
+
+A) O AWS CloudTrail registra chamadas de API, mas não fornece recomendações para otimização.
+C) O AWS Systems Manager ajuda a gerenciar recursos, mas não fornece recomendações de otimização.
+D) O AWS Config monitora as configurações, mas não fornece recomendações de otimização.
+
+2. Qual serviço da AWS oferece uma visão geral de práticas recomendadas e permite otimizar as 
+configurações de recursos para melhorar segurança e eficiência?
+ A) AWS CloudFormation
+ B) AWS Trusted Advisor
+ C) AWS CloudWatch
+ D) AWS Organizations
+Explicação: O AWS Trusted Advisor oferece uma visão geral e recomendações de práticas recomendadas para otimizar a segurança, custo e desempenho.
+
+Por que as outras estão incorretas?
+
+A) O AWS CloudFormation cria recursos, mas não oferece recomendações de otimização.
+C) O Amazon CloudWatch monitora métricas e logs, mas não oferece recomendações de boas práticas.
+D) O AWS Organizations gerencia múltiplas contas, mas não fornece recomendações para otimizar recursos.
+
+---
+
+### AWS Well-Architected
+
+1. Qual framework da AWS ajuda a avaliar as arquiteturas de TI e a melhorar a segurança, eficiência e a otimização de custos?
+ A) AWS CloudFormation
+ B) AWS Well-Architected Framework
+ C) AWS Trusted Advisor
+ D) AWS Systems Manager
+Explicação: O AWS Well-Architected Framework fornece orientações para construir arquiteturas seguras, eficientes e com otimização de custos.
+
+Por que as outras estão incorretas?
+
+A) O AWS CloudFormation cria recursos, mas não oferece orientações sobre arquiteturas.
+C) O AWS Trusted Advisor oferece recomendações para otimizar recursos, mas não avalia arquiteturas inteiras.
+D) O AWS Systems Manager gerencia recursos, mas não oferece diretrizes sobre boas práticas de arquitetura.
+
+2. Qual ferramenta da AWS permite avaliar e melhorar a arquitetura de sistemas, com foco na segurança, confiabilidade, eficiência e otimização de custos?
+ A) AWS Config
+ B) AWS CloudTrail
+ C) AWS Well-Architected Tool
+ D) AWS Well-Architected Framework
+Explicação: O AWS Well-Architected Framework oferece diretrizes para a construção de arquiteturas robustas e otimizadas. A Well-Architected Tool é uma ferramenta que aplica o framework.
+
+Por que as outras estão incorretas?
+
+A) O AWS Config monitora configurações de recursos, mas não avalia arquiteturas.
+B) O AWS CloudTrail registra eventos de API, mas não analisa a arquitetura de sistemas.
+C) A AWS Well-Architected Tool aplica o framework, mas não é a mesma coisa que o AWS Well-Architected Framework.
+
+---
+
+### AWS Config
+
+1. Qual serviço da AWS fornece monitoramento contínuo das configurações e compliance de recursos da AWS?
+ A) AWS CloudTrail
+ B) AWS Config
+ C) Amazon CloudWatch
+ D) AWS Systems Manager
+Explicação: O AWS Config fornece monitoramento contínuo das configurações dos recursos para garantir o compliance e a consistência.
+
+Por que as outras estão incorretas?
+
+A) O AWS CloudTrail registra ações da API, mas não monitora configurações de recursos.
+C) O Amazon CloudWatch monitora métricas e logs, mas não foca nas configurações dos recursos.
+D) O AWS Systems Manager gerencia recursos, mas não monitora configurações.
+
+2. Qual serviço da AWS permite auditar e monitorar alterações nas configurações de recursos para garantir o compliance?
+ A) AWS IAM
+ B) AWS Config
+ C) AWS CloudFormation
+ D) AWS Organizations
+Explicação: O AWS Config permite auditar e monitorar configurações de recursos, garantindo que as políticas de compliance sejam seguidas.
+
+Por que as outras estão incorretas?
+
+A) O AWS IAM gerencia permissões, mas não monitora configurações de recursos.
+C) O AWS CloudFormation cria recursos, mas não audita configurações de recursos.
+D) O AWS Organizations gerencia contas, mas não monitora configurações de recursos.
+
+---
+
+### AWS Service Catalog
+
+1. Qual serviço da AWS permite criar, gerenciar e implantar catálogos de recursos aprovados para a organização?
+ A) AWS CloudFormation
+ B) AWS Service Catalog
+ C) AWS Config
+ D) AWS Systems Manager
+Explicação: O AWS Service Catalog permite criar e gerenciar catálogos de serviços aprovados, facilitando a governança e o controle sobre recursos.
+
+Por que as outras estão incorretas?
+
+A) O AWS CloudFormation é usado para provisionar recursos, mas não cria catálogos de serviços.
+C) O AWS Config monitora configurações, mas não cria catálogos de serviços.
+D) O AWS Systems Manager é usado para gerenciar recursos, mas não cria catálogos de serviços.
+
+2. Qual serviço permite que você forneça recursos na AWS por meio de um catálogo customizado e aprovado para sua organização?
+ A) AWS IAM
+ B) AWS CloudTrail
+ C) AWS Service Catalog
+ D) AWS Systems Manager
+Explicação: O AWS Service Catalog facilita a criação de catálogos de recursos aprovados, permitindo a governança e o controle no uso de serviços AWS.
+
+Por que as outras estão incorretas?
+
+A) O AWS IAM gerencia identidades e permissões, não recursos em catálogos.
+B) O AWS CloudTrail registra chamadas de API, mas não gerencia catálogos.
+D) O AWS Systems Manager é usado para gerenciar instâncias e recursos, mas não para criar catálogos de serviços.
+
+---
+
+### AWS Compute Optimizer
+
+1. Qual serviço da AWS recomenda ajustes no tipo e tamanho de instâncias para otimizar o custo e o desempenho?
+ A) AWS Trusted Advisor
+ B) AWS Compute Optimizer
+ C) AWS Systems Manager
+ D) AWS CloudWatch
+Explicação: O AWS Compute Optimizer fornece recomendações para otimizar o desempenho e o custo de instâncias EC2, RDS, Lambda e outros recursos.
+
+Por que as outras estão incorretas?
+
+A) O AWS Trusted Advisor fornece recomendações gerais, mas não se foca especificamente em instâncias.
+C) O AWS Systems Manager ajuda no gerenciamento, mas não oferece recomendações específicas de otimização de recursos.
+D) O Amazon CloudWatch monitora métricas, mas não faz recomendações sobre otimização.
+
+2. Qual serviço da AWS fornece recomendações para ajustar o tipo e o tamanho de instâncias a fim de melhorar o desempenho e reduzir custos?
+ A) AWS Systems Manager
+ B) AWS Compute Optimizer
+ C) AWS CloudFormation
+ D) AWS CloudTrail
+Explicação: O AWS Compute Optimizer fornece recomendações personalizadas de otimização de instâncias para melhorar o desempenho e reduzir custos.
+
+Por que as outras estão incorretas?
+
+A) O AWS Systems Manager ajuda a gerenciar e configurar instâncias, mas não oferece recomendações para otimização de custos.
+C) O AWS CloudFormation provê templates para criação de recursos, mas não faz otimizações.
+D) O AWS CloudTrail registra atividades de API, mas não fornece recomendações sobre recursos.
+
+---
+
+### AWS Control Tower
+
+1. Qual serviço da AWS permite configurar e governar múltiplas contas AWS de maneira automatizada com padrões de boas práticas?
+ A) AWS Organizations
+ B) AWS Control Tower
+ C) AWS Config
+ D) AWS CloudTrail
+Explicação: O AWS Control Tower ajuda a configurar e governar múltiplas contas AWS com políticas e controles de segurança em uma única estrutura.
+
+Por que as outras estão incorretas?
+
+A) O AWS Organizations ajuda a gerenciar contas, mas não oferece governança automatizada e conformidade com boas práticas.
+C) O AWS Config monitora configurações, mas não oferece governança automatizada para múltiplas contas.
+D) O AWS CloudTrail registra eventos de API, mas não gerencia múltiplas contas ou governança.
+
+2. Qual serviço da AWS ajuda a configurar e gerenciar ambientes multi-conta com governança e conformidade?
+ A) AWS CloudFormation
+ B) AWS Control Tower
+ C) AWS Trusted Advisor
+ D) AWS Service Catalog
+Explicação: O AWS Control Tower facilita a governança de múltiplas contas AWS, garantindo que todas as contas sigam políticas e melhores práticas de segurança e conformidade.
+
+Por que as outras estão incorretas?
+
+A) O AWS CloudFormation cria e gerencia recursos, mas não é usado para governança multi-conta.
+C) O AWS Trusted Advisor fornece recomendações, mas não faz a governança de múltiplas contas.
+D) O AWS Service Catalog gerencia catálogos de recursos, mas não é voltado para a governança de múltiplas contas.
+
+---
+
+### AWS License Manager
+
+1. Qual serviço da AWS permite gerenciar licenças de software, garantindo conformidade e otimizando os custos?
+ A) AWS Systems Manager
+ B) AWS License Manager
+ C) AWS CloudFormation
+ D) AWS Config
+Explicação: O AWS License Manager ajuda a gerenciar licenças de software, garantindo que as empresas cumpram com as regras de uso e aproveitem ao máximo os recursos licenciados.
+
+Por que as outras estão incorretas?
+
+A) O AWS Systems Manager gerencia recursos, mas não lida diretamente com licenças de software.
+C) O AWS CloudFormation cria recursos, mas não gerencia licenças.
+D) O AWS Config monitora configurações, mas não gerencia licenças de software.
+
+2. Qual serviço da AWS ajuda a gerenciar as licenças de software e garantir que o uso esteja em conformidade?
+ A) AWS IAM
+ B) AWS License Manager
+ C) AWS CloudTrail
+ D) AWS Trusted Advisor
+Explicação: O AWS License Manager permite gerenciar e controlar as licenças de software, garantindo a conformidade e a redução de custos associados.
+
+Por que as outras estão incorretas?
+
+A) O AWS IAM gerencia permissões, mas não lida com licenças de software.
+C) O AWS CloudTrail registra eventos, mas não gerencia licenças.
+D) O AWS Trusted Advisor oferece recomendações, mas não lida com a gestão de licenças.
+
+---
+
+### AWS Auto Scaling
+
+1. Qual serviço da AWS permite ajustar automaticamente o número de instâncias EC2 com base na demanda?
+ A) AWS Systems Manager
+ B) AWS CloudFormation
+ C) AWS Auto Scaling
+ D) AWS CloudWatch
+Explicação: O AWS Auto Scaling ajusta automaticamente o número de instâncias EC2 para corresponder à demanda de tráfego.
+
+Por que as outras estão incorretas?
+
+A) O AWS Systems Manager gerencia instâncias, mas não ajusta automaticamente o número de instâncias com base na demanda.
+B) O AWS CloudFormation cria e gerencia recursos, mas não ajusta o número de instâncias automaticamente.
+D) O Amazon CloudWatch monitora métricas, mas não ajusta instâncias automaticamente.
+
+2. Qual serviço da AWS ajusta automaticamente os recursos para atender às variações de carga em tempo real?
+ A) AWS Config
+ B) AWS Auto Scaling
+ C) AWS CloudFormation
+ D) AWS Systems Manager
+Explicação: O AWS Auto Scaling ajusta automaticamente os recursos de computação, como instâncias EC2, de acordo com a demanda de tráfego ou carga.
+
+Por que as outras estão incorretas?
+
+A) O AWS Config monitora configurações, mas não ajusta os recursos automaticamente.
+C) O AWS CloudFormation cria recursos, mas não faz ajustes automáticos de capacidade.
+D) O AWS Systems Manager ajuda a gerenciar instâncias, mas não ajusta automaticamente os recursos conforme a carga.
+
+---
+
+### AWS Systems Manager
+
+1. Qual serviço da AWS permite gerenciar e automatizar a administração de infraestrutura e configurações em instâncias EC2 e outros recursos da AWS?
+ A) AWS CloudFormation
+ B) Amazon CloudWatch
+ C) AWS Systems Manager
+ D) Amazon S3
+Explicação: O AWS Systems Manager permite gerenciar instâncias EC2 e outros recursos de forma centralizada, automatizando tarefas de administração e configurando a infraestrutura.
+
+Por que as outras estão incorretas?
+
+A) O AWS CloudFormation é usado para definir e provisionar infraestrutura, mas não é especializado em automação de administração de sistemas.
+B) O Amazon CloudWatch é uma ferramenta de monitoramento, não de gerenciamento de infraestrutura.
+D) O Amazon S3 é um serviço de armazenamento, não de gerenciamento de infraestrutura.
+
+2. Qual serviço facilita a automação de tarefas de gerenciamento e configuração em instâncias e recursos da AWS, incluindo patches e atualizações de segurança?
+ A) AWS CloudTrail
+ B) AWS Systems Manager
+ C) Amazon SQS
+ D) Amazon EC2
+Explicação: O AWS Systems Manager facilita a automação de tarefas de gerenciamento, como a aplicação de patches, atualizações de segurança e configurações em instâncias EC2 e outros recursos.
+
+Por que as outras estão incorretas?
+
+A) O AWS CloudTrail registra logs de atividades da AWS, mas não automatiza tarefas de gerenciamento de infraestrutura.
+C) O Amazon SQS é um serviço de enfileiramento de mensagens, não de gerenciamento de infraestrutura.
+D) O Amazon EC2 fornece instâncias de computação, mas não oferece automação para gerenciamento de configurações e atualizações.
